@@ -6,14 +6,14 @@
       "status": "firing",
       "labels": {
         "alertname": "ProbeFailure",
-        "instance": "https://server.example.org",
+        "instance": "https://aap24.imlab.com",
         "job": "http_checks",
         "monitor": "master",
         "severity": "critical"
       },
       "annotations": {
-        "description": "Instance https://server.example.org has been down for over 5m. Job: http_checks",
-        "summary": "BlackBox Probe Failure: https://server.example.org"
+        "description": "Instance https://aap24.imlab.com has been down for over 5m. Job: http_checks",
+        "summary": "BlackBox Probe Failure: https://aap24.imlab.com"
       },
       "startsAt": "2023-02-06T13:08:45.828Z",
       "endsAt": "0001-01-01T00:00:00Z",
@@ -26,14 +26,14 @@
   },
   "commonLabels": {
     "alertname": "ProbeFailure",
-    "instance": "https://server.example.org",
+    "instance": "https://aap24.imlab.com",
     "job": "http_checks",
     "monitor": "master",
     "severity": "critical"
   },
   "commonAnnotations": {
     "description": "Instance https://server.example.org has been down for over 5m. Job: http_checks",
-    "summary": "BlackBox Probe Failure: https://server.example.org"
+    "summary": "BlackBox Probe Failure: https://aap24.imlab.com"
   },
   "externalURL": "http://prometheus.example.org:9093",
   "version": "4",
